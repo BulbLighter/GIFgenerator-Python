@@ -1,9 +1,9 @@
 import imageio.v3 as iio
 
-filenames = ['one.jpg', 'two.jpg','three.jpg','four.jpg','five.jpg']
+pictures = ['one.jpg', 'two.jpg','three.jpg','four.jpg','five.jpg']
 images = [ ]
 
-for filename in filenames:
-  images.append(iio.imread(filename))
+for picture in pictures:
+  images.append(iio.imread(picture))
 
 iio.imwrite('mrrobot.gif', images, duration = 250, loop = 0)
