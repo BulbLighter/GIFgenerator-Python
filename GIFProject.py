@@ -1,5 +1,5 @@
 import imageio.v3 as iio
-
+#A very simple script that creates a gif from a list of images.
 pictures = ['one.jpg', 'two.jpg','three.jpg','four.jpg','five.jpg']
 images = [ ]
 
